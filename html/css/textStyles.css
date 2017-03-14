@@ -1,0 +1,63 @@
+@import url("fontFaces.css");
+body {
+  padding-top: 65px;
+  background-image: url("../../resources/img/home_background.jpg"); }
+
+.navbar {
+  height: 55px;
+  border: 0px;
+  background: -webkit-linear-gradient(darkgrey, black); }
+  .navbar .logo {
+    padding-left: 100px;
+    font-family: finityregular;
+    font-size: 55px;
+    color: white; }
+  .navbar .navbar-brand {
+    padding-left: 50px;
+    font-family: finityregular;
+    font-size: 55px;
+    color: white; }
+
+.title {
+  font-family: death_hectorregular;
+  font-size: 50px;
+  text-align: center;
+  background: -webkit-linear-gradient(white, dimgrey);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top: 50px; }
+  .title .title-sub {
+    font-family: eliantoregular;
+    font-size: 20px; }
+
+.carousel {
+  margin-top: 50px;
+  font-family: finityregular; }
+  .carousel .carouselItem {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: justify; }
+    .carousel .carouselItem .itemImage {
+      width: 800px;
+      height: 450px;
+      display: block;
+      align-content: center;
+      margin: auto; }
+    .carousel .carouselItem .itemHeader {
+      font-size: 35px;
+      font-weight: bold;
+      position: absolute;
+      left: 50%;
+      top: 65%;
+      transform: translate(-50%, -50%); }
+    .carousel .carouselItem .itemDescription {
+      font-size: 15px;
+      font-weight: bold;
+      position: absolute;
+      left: 50%;
+      top: 80%;
+      transform: translate(-50%, -50%); }
+
+/*# sourceMappingURL=textStyles.css.map */

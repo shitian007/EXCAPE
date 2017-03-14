@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'anuratiregular';
+    src: local(anuratiregular), 
+         url('../../resources/fonts/anurati-regular.woff2') format('woff2'),
+         url('../../resources/fonts/anurati-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'death_hectorregular';
+    src: url('../../resources/fonts/death-hector.woff2') format('woff2'),
+         url('../../resources/fonts/death-hector.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'eliantoregular';
+    src: url('../../resources/fonts/elianto-regular.woff2') format('woff2'),
+         url('../../resources/fonts/elianto-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'finityregular';
+    src: url('../../resources/fonts/finity.woff2') format('woff2'),
+         url('../../resources/fonts/finity.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'phage_regular';
+    src: url('../../resources/fonts/phage-regular.woff2') format('woff2'),
+         url('../../resources/fonts/phage-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
